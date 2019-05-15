@@ -1,2 +1,2 @@
-# scss-helpers-float
+# Scss | Helpers float
 SCSS | Helpers float
