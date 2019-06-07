@@ -4,9 +4,9 @@
   $-float-values: (left, right, none);
   
   @if $responsive {
-    @each $value in $-float-values {
-      @each $classname in $breakpoint-classes {
-        @include breakpoint($classname) {
+    @each $classname in $breakpoint-classes {
+      @include breakpoint($classname) {
+        @each $value in $-float-values {
           .#{$classname}-float-#{$value} {
             float: #{$value};
           }
